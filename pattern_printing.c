@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
     for(row=0;row<input;row++){    // for printing rows
         for(col=0;col<input;col++) // for printing columns
         {
-            printf("%d",val);
+            printf("%d ",val);
             if(col<row){          
                 val--;
             }
